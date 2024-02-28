@@ -110,13 +110,4 @@ public class OrderTest {
         Assert.assertTrue(orderPage.isDisplayedSuccess());
     }
 
-    /*
-    void makeScreenshot() throws Exception {
-        File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        Path target = Path.of("./screenshot.png");
-        Files.delete(target);
-        Files.copy(srcFile.toPath(), target);
-    }
-    */
-
 }
